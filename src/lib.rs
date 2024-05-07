@@ -17,7 +17,8 @@ pub fn new_check(value: i32) -> Arc<Box<dyn Check>> {
 }
 
 pub fn check_trait(check: Arc<Box<dyn Check>>, arg: i32) -> bool {
-    lib_check_trait(check, arg)
+    // lib_check_trait(check, arg)
+    false
 }
 
 #[cfg(test)]
